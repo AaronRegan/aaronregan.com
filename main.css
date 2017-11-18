@@ -1,27 +1,44 @@
+.center	{
+	padding: 225px 0;
+	text-align: center;
+}
+
+.contactHeader {
+	text-align: center;
+	margin: 100px;
+
+}
+
 h1{
+	color: hotpink;
 	font-size: 32px;
 	font-family: 'Trebuchet MS', 'Helvetica';
 }
 
-.center	{
-	padding: 150px 0;
-	margin: 0px;
-	text-align: center;
+li{
+	display: inline;
+	font-size: 32px;
+	margin: 25px;
+	font-family: 'Trebuchet MS', 'Helvetica';
 }
-/* Links set up */
 
+/* Links set up */
 a:link {
     color: black;
+    text-decoration: none;
 }
 
 a:visited {
     color: black;
+    text-decoration: none;
 }
 
 a:hover {
     color: hotpink;
+    text-decoration: none;
 }
 
 a:active {
     color: black;
+    text-decoration: none;
 }
