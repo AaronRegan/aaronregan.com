@@ -1,0 +1,27 @@
+h1{
+	font-size: 32px;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+.center	{
+	padding: 150px 0;
+	margin: 0px;
+	text-align: center;
+}
+/* Links set up */
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: black;
+}
