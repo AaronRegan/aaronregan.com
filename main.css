@@ -1,44 +1,264 @@
-.center	{
-	padding: 225px 0;
-	text-align: center;
+  /******************/
+ /*CV styles********/
+/******************/
+
+.cv{
+	padding: 25px;
+	color: gray;
+	font-family: 'Avenir','Trebuchet MS', 'Helvetica';
 }
 
-.contactHeader {
-	text-align: center;
-	margin: 100px;
-
-}
-
-h1{
-	color: hotpink;
+.cv h1 {
 	font-size: 32px;
+}
+
+.cv h2 {
+	float: left;
+	font-size: 24px;
+}
+
+.cv h3{
+	float: right;
+	margin-top: 35px;
+	font-size: 16px;
+}
+
+.cv ul{
+	display: block;
+	float: left;
+	font-size: 16px;
+	margin: 4px;
+}
+
+.cv li{
+
+}
+
+.skills {
+	text-align: left;
+	float: left;
+}
+
+.skillsTable{
+	margin-left: 25px;
+}
+
+.projects {
+	float: left;
+}
+.projectshead h1{
+	float: left;
+	text-align: left;
+	clear: both;
+}
+
+.projects h2{
+	float: left;
+	text-align: left;
+	margin-left: 25px;
+	font-size: 18px;
+}
+
+.projects p{
+	float: left;
+	margin-left: 40px;
+	font-size: 16px;
+
+}
+
+.projects a:link, a:visited, a:active{
+	color: gray;
+	text-decoration: none;
+}
+.projects a.purple:hover{
+	color: #6D045B;
+}
+
+.education{
+	float: left;
+}
+
+.educationhead h1{
+	float: left;
+	text-align: left;
+	clear: both;
+}
+
+.education h2{
+	float: left;
+	text-align: left;
+	font-size: 18px;
+	clear: both;
+}
+
+.education h3{
+	float: right;
+	margin-top: 35px;
+	font-size: 16px;
+}
+.education p{
+	float: left;
+	margin-left: 35px;
+	font-size: 16px;
+}
+
+.certificates{
+	float: left;
+	display: block;
+}
+
+.certificates h1{
+		float: left;
+	text-align: left;
+	margin-right: 20px;
+}
+
+.certificates p{
+	float: right;
+	margin-top: 35px;
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+.interests{
+	float: left;
+	display: inline;
+}
+
+.interests h1{
+		float: left;
+	text-align: left;
+	margin-right: 20px;
+}
+
+.interests p{
+	float: right;
+	margin-top: 35px;
+	margin-left: 15px;
+	font-size: 16px;
+}
+  /******************/
+ /*MainMenu styles**/
+/******************/
+.mainMenu {
+	padding: 250px 0;
+	text-align: center;
+}
+
+.mainMenu li{
+	padding: 0px;
+	margin: 10px;
+	color: black;
+	display: inline;
+	font-size: 48px;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+.mainMenu ul li a:link, a:visited, a:active{
+	color: black;
+	text-decoration: none;
+}
+.mainMenu ul li a:hover{
+	color: hotpink;
+}
+
+  /******************/
+ /*LinksBar styles**/
+/******************/
+
+.linksBar{
+	padding: 250px 0;
+	text-align: center;
+}
+.linksBar li{
+	padding: 0px;
+	margin: 10px;
+	display: inline;
+	font-size: 48px;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+.linksBar ul li a:link, a:visited, a:active{
+	color: black;
+	text-decoration: none;
+}
+.linksBar ul li a.green:hover{
+	color: #44B364;
+}
+.linksBar ul li a.blue:hover{
+	color: #0077b5;
+}
+.linksBar ul li a.gray:hover{
+	color: darkgray;
+}
+  /******************/
+ /*Contact styles***/
+/******************/
+
+.contactHeader{
+	padding: 75px 0;
+	text-align: center;
+}
+
+.contactHeader h1{
+	font-size: 48px;
 	font-family: 'Trebuchet MS', 'Helvetica';
 }
 
-li{
+.contactDetails ul {
+	padding-top: 215px;
+}
+
+.contactDetails li{
+	padding: 50px;
+	margin: 10px;
+	text-align: center;
 	display: inline;
 	font-size: 32px;
-	margin: 25px;
 	font-family: 'Trebuchet MS', 'Helvetica';
 }
 
-/* Links set up */
-a:link {
-    color: black;
-    text-decoration: none;
+  /******************/
+ /*Blog styles******/
+/******************/
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-a:visited {
-    color: black;
-    text-decoration: none;
+.blog-item {
+  margin: 20px;
 }
 
-a:hover {
-    color: hotpink;
-    text-decoration: none;
+.gallery-item .thumbnail {
+
 }
 
-a:active {
-    color: black;
-    text-decoration: none;
+.back2top {
+	padding: 25px 0;
+	text-align: center;
+}
+
+.back2top li{
+	margin: 0;
+  	padding: 0 10px;
+  	display: inline;
+  	font-size: 48px;
+  	text-align: center;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+.back2top ul{
+  	display: inline;
+  	text-align: center;
+  	padding: 25px;
+}
+
+.back2top ul li a:link, a:visited, a:active{
+	color: black;
+	text-decoration: none;
+}
+.back2top ul li a:hover{
+	color: hotpink;
 }
