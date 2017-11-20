@@ -3,7 +3,7 @@
 /******************/
 
 .cv{
-	padding: 25px;
+	padding: 30px;
 	color: gray;
 	font-family: 'Avenir','Trebuchet MS', 'Helvetica';
 }
@@ -14,11 +14,14 @@
 
 .cv h2 {
 	float: left;
-	font-size: 24px;
+	text-align: left;
+	font-size: 18px;
+	clear: both;
 }
 
 .cv h3{
 	float: right;
+	text-align: right;
 	margin-top: 35px;
 	font-size: 16px;
 }
@@ -28,6 +31,7 @@
 	float: left;
 	font-size: 16px;
 	margin: 4px;
+	clear: both;
 }
 
 .cv li{
@@ -66,16 +70,22 @@
 
 }
 
-.projects a:link, a:visited, a:active{
+.cv p.projectSW{
+	margin-left: 10px;
+}
+
+.cv a:link, a:visited, a:active{
 	color: gray;
 	text-decoration: none;
 }
-.projects a.purple:hover{
+
+.cv a.purple:hover{
 	color: #6D045B;
 }
 
 .education{
 	float: left;
+	display: block;
 }
 
 .educationhead h1{
