@@ -1,153 +1,4 @@
   /******************/
- /*CV styles********/
-/******************/
-
-.cv{
-	padding: 30px;
-	color: gray;
-	font-family: 'Avenir','Trebuchet MS', 'Helvetica';
-}
-
-.cv h1 {
-	font-size: 32px;
-}
-
-.cv h2 {
-	float: left;
-	text-align: left;
-	font-size: 18px;
-	clear: both;
-}
-
-.cv h3{
-	float: right;
-	text-align: right;
-	margin-top: 35px;
-	font-size: 16px;
-}
-
-.cv ul{
-	display: block;
-	float: left;
-	font-size: 16px;
-	margin: 4px;
-	clear: both;
-}
-
-.cv li{
-
-}
-
-.skills {
-	text-align: left;
-	float: left;
-}
-
-.skillsTable{
-	margin-left: 25px;
-}
-
-.projects {
-	float: left;
-}
-.projectshead h1{
-	float: left;
-	text-align: left;
-	clear: both;
-}
-
-.projects h2{
-	float: left;
-	text-align: left;
-	margin-left: 25px;
-	font-size: 18px;
-}
-
-.projects p{
-	float: left;
-	margin-left: 40px;
-	font-size: 16px;
-
-}
-
-.cv p.projectSW{
-	margin-left: 10px;
-}
-
-.cv a:link, a:visited, a:active{
-	color: gray;
-	text-decoration: none;
-}
-
-.cv a.purple:hover{
-	color: #6D045B;
-}
-
-.education{
-	float: left;
-	display: block;
-}
-
-.educationhead h1{
-	float: left;
-	text-align: left;
-	clear: both;
-}
-
-.education h2{
-	float: left;
-	text-align: left;
-	font-size: 18px;
-	clear: both;
-}
-
-.education h3{
-	float: right;
-	margin-top: 35px;
-	font-size: 16px;
-}
-.education p{
-	float: left;
-	margin-left: 35px;
-	font-size: 16px;
-}
-
-.certificates{
-	float: left;
-	display: block;
-}
-
-.certificates h1{
-		float: left;
-	text-align: left;
-	margin-right: 20px;
-}
-
-.certificates p{
-	float: right;
-	margin-top: 35px;
-	margin-left: 15px;
-	font-size: 16px;
-}
-
-.interests{
-	float: left;
-	display: inline;
-}
-
-.interests h1{
-		float: left;
-	text-align: left;
-	margin-right: 20px;
-}
-
-.interests p{
-	float: right;
-	margin-top: 35px;
-	margin-left: 15px;
-	font-size: 16px;
-}
-  /******************/
  /*MainMenu styles**/
 /******************/
 .mainMenu {
@@ -213,17 +64,64 @@
 	font-family: 'Trebuchet MS', 'Helvetica';
 }
 
+.contactDetails ul li a:link, a:visited, a:active{
+	color: black;
+	text-decoration: none;
+}
+.contactDetails ul li a:hover{
+	color: hotpink;
+}
+
 .contactDetails ul {
 	padding-top: 215px;
+	text-align: center;
 }
 
 .contactDetails li{
 	padding: 50px;
 	margin: 10px;
-	text-align: center;
-	display: inline;
+	display: inline-block;
 	font-size: 32px;
 	font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+.berlin a:hover:before {
+    content: '';
+    position: fixed;
+    display: block;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-image: url(photos/berlin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    background-clip: content-box;
+}
+
+  /******************/
+ /*Blog main******/
+/******************/
+
+.blog-main {
+    padding: 250px 0;
+    display: block;
+	text-align: center;
+}
+
+.blog-main li{
+	padding: 0px;
+	margin: 10px;
+	color: black;
+	display: block;
+	font-size: 48px;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+.blog-main ul li a:link, a:visited, a:active{
+	color: black;
+	text-decoration: none;
+}
+.blog-main ul li a:hover{
+	color: hotpink;
 }
 
   /******************/
